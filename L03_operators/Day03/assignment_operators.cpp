@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    
+    int a = 5;
+
+    a += 5;  //a = a+5; => 10
+    cout<<a<<endl;
+
+    a -= 5;
+    cout<<a<<endl;
+
+    a *= 5;
+    cout<<a<<endl;
+
+    a /= 5;
+    cout<<a<<endl;
+    
+    return 0;
+}
